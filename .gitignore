@@ -1,0 +1,5 @@
+/_interm/*
+/_out/*
+/.vs/*
+/_backup/*
+/SoftSynth/*.wav
