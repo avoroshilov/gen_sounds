@@ -6,15 +6,15 @@ This sample shows how to use the sound synthesis framework. Again, modern neural
 
 Examples include:
 
-[Complex ambient synthesis sample]() which includes detuned oscillators, reverb, chorus, delay lines, general IIR filtering and a simple sequencer.
+[Complex ambient synthesis sample](examples/ambient.mp3) which includes detuned oscillators, reverb, chorus, delay lines, general IIR filtering and a simple sequencer.
 
-[Sound positioning and Doppler effect sample.]()
+[Sound positioning and Doppler effect sample.](examples/doppler.mp3)
 
-[Extended Karplus-Strong synthesis](), including sequencing via guitar strings and frets setup.
+[Extended Karplus-Strong synthesis](examples/ks_horizons.mp3), including sequencing via guitar strings and frets setup.
 
-[Formant vowel synthesis.]()
+[Formant vowel synthesis.](examples/formant.mp3)
 
-[Phaser/flanger wind sound synth.]()
+[Phaser/flanger wind sound synth.](examples/wind.mp3)
 
 ## Underlying sound synthesis framework
 The framework is a product of old demoscene days, hence it is designed to be fast and small, and doesn't work with the sound loading routines, although could be easily modified to support those too.
@@ -37,3 +37,6 @@ The framework is a product of old demoscene days, hence it is designed to be fas
 Huge thanks to Yehar for his introductory sound synthesis tutorial, to all authors who published in Hugi demoscene diskmag (check out the coding special edition if you're interested in the demoscene-related knowledge!); and to all the demoscene community which is an open and friendly!
 
 Additionally, Julius Orion Smith III for his wonderful sound processing resources, and to Christian Schüler for the popularization of FDN-based reverb algorithms.  
+
+## License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
